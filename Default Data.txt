@@ -1,0 +1,22 @@
+use db1
+db.table1.insertMany([
+{ "_id" : 1, "name" : "Ajay", "status": "active", "level": 9,"score":99},
+{ "_id" : 2, "name" : "Priya", "status": "inactive", "level": 5,"score":88}
+])
+
+db.table2.insertMany([
+{ "_id" : 1, "name" : "Ashish", "status": "active", "level": 10,"score":100},
+{ "_id" : 2, "name" : "Santwana", "status": "inactive", "level": 8,"score":50}
+])
+
+use db2 
+db.table3.insertMany([
+{ "_id" : 1, "name" : "Amruta", "status": "active", "level": 1,"score":40},
+{ "_id" : 2, "name" : "Avadhoot", "status": "inactive", "level": 4,"score":60}
+])
+
+db.table4.insertMany([
+{ "_id" : 1, "name" : "Vaishnavi", "status": "active", "level": 8,"score":8},
+{ "_id" : 2, "name" : "Abhishek", "status": "inactive", "level": 8,"score":9}
+])
+
